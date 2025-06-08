@@ -11,4 +11,4 @@ if [ $# -ne 3 ]; then
 fi
 
 # Pass parameters to our Python implementation
-python3 "$(dirname $0)/optimized_reimbursement_model.py" "$1" "$2" "$3"
+python3 "$(dirname $0)/advanced_rule_model.py" "$1" "$2" "$3"
